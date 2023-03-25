@@ -1,0 +1,166 @@
+* {
+    margin: 6px 10px 0px 10px;
+}
+
+body {
+    font-family: 'Times new roman';
+}
+
+nav {
+    background: #ffffff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeMenu {
+    cursor: pointer;
+    display: none;
+}
+
+.openMenu {
+    cursor: pointer;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.heading-home {
+    font-size: 60px;
+}
+
+.paragraph-home {
+    font-size: 20px;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    width: 30%;
+    height: 2;
+    border: none;
+    font-size: 20px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.heading {
+    width: 100%;
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.about-us-heading br {
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+.about-us-paragraph {
+    width: 40%;
+}
+
+.about-us-paragraph p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-us-know-more a {
+    text-decoration: none;
+    color: black;
+}
+
+.cards {
+    position: static;
+    width: 50%;
+    background-color: black;
+    height: 303px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.products-content-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+}
+
+.products {
+    height: 500px;
+}
+
+.card-image {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.card-image img {
+    margin: 0;
+    height: 192px;
+}
+
+.products-content-cards {
+    position: relative;
+
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 63px;
+    width: 50%;
+    color: white;
+}
+
+.card-content p {
+    width: 50%;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-link {
+    margin-left: 363px;
+    margin-top: 229px;
+}
+
+.owl-item {
+    width: 998.3330000000001px !important;
+}
